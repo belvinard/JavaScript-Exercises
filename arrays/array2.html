@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array 2</title>
+</head>
+<body>
+    <p>Create a function <strong>getLastValue(array)</strong> that takes an array and return the last value.</p>
+    <ul>
+        <li>getLastValue([1, 20, 22, 24, 5]) => 5</li>
+        <li>getLastValue(['hi', 'hello', 'good']) => 'good'</li>
+    </ul>
+
+    <script>
+        function getLastValue(array){
+            // check if the array is empty
+            if(array.length === 0){
+                return undefined; // Return undefined if the array is empty
+            }else{
+                return array[array.length - 1]; // Return the last value of the array
+            }
+        }
+
+        const nums = [1, 20, 22, 24, 5];
+        const str = ['hi', 'hello', 'good'];
+
+        console.log(getLastValue(nums)); // Output: 5
+        console.log(getLastValue(str)); // Output: good
+
+    </script>
+</body>
+</html>
