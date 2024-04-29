@@ -21,3 +21,12 @@ Dans ce contexte particulier, l'objet exceptions contient des nombres (clés) qu
 Ainsi, lorsque nous avons un chiffre entre 11 et 19, nous voulons utiliser ces valeurs spéciales plutôt que d'appliquer les règles normales de formation des nombres. C'est pourquoi nous vérifions si le chiffre est une clé dans l'objet exceptions.
 Si le chiffre est trouvé dans les exceptions, nous utilisons la valeur associée à cette clé comme le nom du nombre. Par exemple, si chiffre est 11, nous utiliserons 'onze' comme le nom du nombre. Cela nous permet de traiter les exceptions de manière spéciale dans la conversion en lettres des nombres.
 
+
+A6. La partie unite = unites[chiffre % 10]; utilise les crochets [...] pour accéder à un élément spécifique dans le tableau unites. Permettez-moi de clarifier cela :
+
+En JavaScript, les crochets [...] sont utilisés pour accéder aux éléments d'un tableau en utilisant leur index.
+Dans ce cas, chiffre % 10 est utilisé comme index pour accéder à un élément spécifique dans le tableau unites.
+L'opérateur modulo % est utilisé pour obtenir le reste de la division de chiffre par 10. Cela garantit que chiffre % 10 est un nombre entre 0 et 9, ce qui est exactement ce dont nous avons besoin pour accéder à un élément dans le tableau unites.
+Par exemple, si chiffre est 365, alors chiffre % 10 sera 5, car 365 % 10 est égal à 5. Ainsi, unites[5] accédera à l'élément à l'index 5 dans le tableau unites.
+Cela nous permet d'obtenir le nom en lettres de l'unité correspondant au chiffre chiffre.
+En résumé, l'utilisation des crochets [...] nous permet d'accéder à un élément spécifique dans le tableau unites en utilisant un index calculé dynamiquement (chiffre % 10).
