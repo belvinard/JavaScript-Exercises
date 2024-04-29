@@ -32,3 +32,11 @@ Cela nous permet d'obtenir le nom en lettres de l'unité correspondant au chiffr
 En résumé, l'utilisation des crochets [...] nous permet d'accéder à un élément spécifique dans le tableau unites en utilisant un index calculé dynamiquement (chiffre % 10).
 
 A7. l'utilisation de la chaîne vide au début du tableau unites facilite la correspondance entre les indices du tableau et les nombres en toutes lettres, et contribue à la clarté et à la cohérence du code lors de la conversion des nombres en toutes lettres.
+A8. La fonction nombreEnLettres(nombre) pourrait être utile dans divers contextes de la vie quotidienne où il est nécessaire de convertir un nombre en toutes lettres. Voici quelques exemples pratiques :
+
+Factures et Chèques : Lors de l'émission de chèques ou de la rédaction de factures manuscrites, il est parfois requis d'écrire le montant en toutes lettres. Par exemple, si le montant est 123, la fonction pourrait être utilisée pour convertir ce nombre en "cent vingt-trois".
+Contrats et Documents Juridiques : Dans la rédaction de contrats, de documents juridiques ou administratifs, il est souvent nécessaire de préciser les montants en toutes lettres pour éviter toute confusion ou ambigüité.
+Applications Financières : Les applications ou les systèmes de gestion financière peuvent utiliser cette fonction pour générer des rapports ou des documents où les montants doivent être présentés de manière lisible par les utilisateurs.
+Formulaires en Ligne : Dans les formulaires en ligne, il est parfois demandé aux utilisateurs d'entrer des montants en chiffres, mais également en toutes lettres pour des raisons de vérification ou de clarté.
+Éducation et Enseignement : En enseignement des mathématiques ou de la langue, cette fonction pourrait être utilisée pour aider les élèves à comprendre et à associer les nombres à leur représentation en toutes lettres.
+
