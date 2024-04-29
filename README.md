@@ -30,3 +30,5 @@ L'opérateur modulo % est utilisé pour obtenir le reste de la division de chiff
 Par exemple, si chiffre est 365, alors chiffre % 10 sera 5, car 365 % 10 est égal à 5. Ainsi, unites[5] accédera à l'élément à l'index 5 dans le tableau unites.
 Cela nous permet d'obtenir le nom en lettres de l'unité correspondant au chiffre chiffre.
 En résumé, l'utilisation des crochets [...] nous permet d'accéder à un élément spécifique dans le tableau unites en utilisant un index calculé dynamiquement (chiffre % 10).
+
+A7. l'utilisation de la chaîne vide au début du tableau unites facilite la correspondance entre les indices du tableau et les nombres en toutes lettres, et contribue à la clarté et à la cohérence du code lors de la conversion des nombres en toutes lettres.
